@@ -1,9 +1,9 @@
-# Administrative Layer
+# Capa Administrativa
 
-The Administrative Layer provides human-facing control over operational resources.
+La Capa Administrativa proporciona control orientado al usuario sobre los recursos operativos.
 
-It covers owners and users, authentication and sessions, assignments, and administrative access to operational domains and entities.
+Comprende propietarios y usuarios, autenticación y sesiones, asignaciones y acceso administrativo a dominios y entidades operativas.
 
-Administrative access does not redefine the operational identity or semantics of the resources being administered.
+El acceso administrativo no redefine la identidad operativa ni la semántica de los recursos administrados.
 
-See the [administrative flow](../../../flows/administrative-flow.md).
+Consulta el [flujo administrativo](../../../flows/administrative-flow.md).
