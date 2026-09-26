@@ -1,9 +1,9 @@
-# Vision
+# Visión
 
-- [Manifest](manifest.md)
-- [Objectives](objectives.md)
-- [Premises](premises.md)
-- [Use cases](use-cases.md)
-- [Ethical and legal notice](disclaimer.md)
+- [Manifiesto](manifest.md)
+- [Objetivos](objectives.md)
+- [Premisas](premises.md)
+- [Casos de uso](use-cases.md)
+- [Aviso ético y legal](disclaimer.md)
 
-Return to the [documentation index](../index.md).
+Volver al [índice de documentación](../index.md).
