@@ -1,48 +1,48 @@
 ---
-title: T-Shell Documentation
+title: Documentación de T-Shell
 ---
 
-# T-Shell Documentation
+# Documentación de T-Shell
 
-T-Shell is a lightweight system for controlling and administering technological devices and infrastructure.
+T-Shell es un sistema ligero para controlar y administrar dispositivos e infraestructura tecnológica.
 
-## Vision
+## Visión
 
-- [Manifest](vision/manifest.md)
-- [Objectives](vision/objectives.md)
-- [Premises](vision/premises.md)
-- [Use cases](vision/use-cases.md)
-- [Ethical and legal notice](vision/disclaimer.md)
+- [Manifiesto](vision/manifest.md)
+- [Objetivos](vision/objectives.md)
+- [Premisas](vision/premises.md)
+- [Casos de uso](vision/use-cases.md)
+- [Aviso ético y legal](vision/disclaimer.md)
 
-## Architecture
+## Arquitectura
 
-- [Architecture overview](architecture/index.md)
-- [Architecture layers](architecture/layers/index.md)
+- [Resumen de arquitectura](architecture/index.md)
+- [Capas de arquitectura](architecture/layers/index.md)
 
-## Applications
+## Aplicaciones
 
-- [Applications overview](applications/index.md)
+- [Resumen de aplicaciones](applications/index.md)
 - [Atlas](applications/atlas.md)
 - [Echo](applications/echo.md)
 - [Codex](applications/codex.md)
 
-## Platforms
+## Plataformas
 
-- [Platform overview](platform/index.md)
-- [Authentication](platform/authentication.md)
-- [Linkage](platform/linkage.md)
-- [Transport](platform/transport.md)
-- [Module](platform/module.md)
-- [System Adapter](platform/system-adapter.md)
+- [Resumen de plataformas](platform/index.md)
+- [Autenticación](platform/authentication.md)
+- [Enlace](platform/linkage.md)
+- [Transporte](platform/transport.md)
+- [Módulos](platform/module.md)
+- [Adaptador del sistema](platform/system-adapter.md)
 
-## Flows
+## Flujos
 
-- [Flow overview](flows/index.md)
-- [Operative flow](flows/operative-flow.md)
-- [Administrative flow](flows/administrative-flow.md)
-- [Business flow](flows/business-flow.md)
-- [Applications flow](flows/applications-flow.md)
+- [Resumen de flujos](flows/index.md)
+- [Flujo operativo](flows/operative-flow.md)
+- [Flujo administrativo](flows/administrative-flow.md)
+- [Flujo de negocio](flows/business-flow.md)
+- [Flujo de aplicaciones](flows/applications-flow.md)
 
-## Demonstrations
+## Demostraciones
 
-- [Demonstration index](demonstrations/index.md)
+- [Índice de demostraciones](demonstrations/index.md)
