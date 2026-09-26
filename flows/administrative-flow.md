@@ -10,17 +10,17 @@ La Capa Administrativa añade administración sobre la operación existente; no 
 
 Lease:
 
-- [[architecture/layers/administrative/index|Capa Administrativa]]
-- [[architecture/layers/administrative/user/index|Modelo de Usuario]]
-- [[architecture/layers/administrative/assignment/index|Modelo de Asignación]]
-- [[architecture/layers/administrative/session/index|Modelo de Sesión]]
-- [[architecture/layers/operative/domain/index|Modelo de Dominio]]
-- [[architecture/layers/operative/entity/index|Modelo de Entidad]]
-- [[architecture/layers/operative/knowledge/index|Modelo de Conocimiento]]
-- [[applications/atlas/architecture|Arquitectura de Atlas]]
-- [[applications/atlas/responsibilities|Responsabilidades de Atlas]]
-- [[applications/echo/responsibilities|Responsabilidades de Echo]]
-- [[flows/operative-flow|Flujo Operativo]]
+- [Capa Administrativa](../architecture/layers/administrative/index.md)
+- [Modelo de Usuario](../architecture/layers/administrative/index.md)
+- [Modelo de Asignación](../architecture/layers/administrative/index.md)
+- [Modelo de Sesión](../architecture/layers/administrative/index.md)
+- [Modelo de Dominio](../architecture/layers/operative/index.md)
+- [Modelo de Entidad](../architecture/layers/operative/index.md)
+- [Modelo de Conocimiento](../architecture/layers/operative/index.md)
+- [Arquitectura de Atlas](../applications/atlas.md)
+- [Responsabilidades de Atlas](../applications/atlas.md)
+- [Responsabilidades de Echo](../applications/echo.md)
+- [Flujo Operativo](operative-flow.md)
 
 ## Dependencia de capa
 
