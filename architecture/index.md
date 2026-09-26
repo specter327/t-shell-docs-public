@@ -1,29 +1,29 @@
-# Architecture
+# Arquitectura
 
-T-Shell is organized as cooperating models, applications, and platform boundaries.
+T-Shell se organiza mediante modelos, aplicaciones y límites de plataforma que cooperan entre sí.
 
-## Layers
+## Capas
 
-- [Operative layer](layers/operative/index.md) — core operational concepts.
-- [Administrative layer](layers/administrative/index.md) — human administration over operational resources.
-- [Business layer](layers/business/index.md) — commercial constraints around administrative capability.
+- [Capa operativa](layers/operative/index.md) — conceptos operativos fundamentales.
+- [Capa administrativa](layers/administrative/index.md) — administración humana de recursos operativos.
+- [Capa de negocio](layers/business/index.md) — restricciones comerciales alrededor de las capacidades administrativas.
 
-See the [layer overview](layers/index.md).
+Consulta el [resumen de las capas](layers/index.md).
 
-## Applications
+## Aplicaciones
 
 - [Atlas](../applications/atlas.md)
 - [Echo](../applications/echo.md)
 - [Codex](../applications/codex.md)
 
-## Platforms
+## Plataformas
 
-See the [platform overview](../platform/index.md).
+Consulta el [resumen de plataformas](../platform/index.md).
 
-## Flows
+## Flujos
 
-See the [documented flows](../flows/index.md).
+Consulta los [flujos documentados](../flows/index.md).
 
-## Public documentation boundary
+## Límite de la documentación pública
 
-This repository intentionally omits internal analysis, private specifications, credentials, security-sensitive operational details, unreleased implementation records, and historical working material.
+Este repositorio omite deliberadamente análisis internos, especificaciones privadas, credenciales, detalles operativos sensibles de seguridad, registros de implementación no publicados y material histórico de trabajo.
