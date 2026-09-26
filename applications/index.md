@@ -1,22 +1,22 @@
-# Applications
+# Aplicaciones
 
-T-Shell's public application model contains three principal applications:
+El modelo público de aplicaciones de T-Shell contiene tres aplicaciones principales:
 
 - [Atlas](atlas.md)
 - [Echo](echo.md)
 - [Codex](codex.md)
 
 ```text
-                 Consumer
-                    |
-                    v
-                  Atlas
-                 /     \
-                v       v
-             Codex     Echo
-               |         |
-               v         v
-          Knowledge    Host system
+                 Consumidor
+                     |
+                     v
+                   Atlas
+                  /     \
+                 v       v
+              Codex     Echo
+                |         |
+                v         v
+          Conocimiento  Sistema anfitrión
 ```
 
-See the [applications flow](../flows/applications-flow.md).
+Consulta el [flujo de aplicaciones](../flows/applications-flow.md).
