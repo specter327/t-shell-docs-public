@@ -2,19 +2,19 @@
 
 ## Propósito
 
-El Flujo de Negocio describe cómo la **Capa Business** compone Cliente, Plan, Suscripción y Facturación sobre las capas Administrativa y Operativa.
+El Flujo de Negocio describe cómo la **Capa de Negocio** compone Cliente, Plan, Suscripción y Facturación sobre las capas Administrativa y Operativa.
 
 Su función es expresar la secuencia y relaciones comerciales documentadas actualmente, sin introducir reglas de cobro, renovación, enforcement o provisión que todavía no estén definidas por los modelos.
 
 ## Composición documental
 
-Lease:
+Referencia:
 
-- [[architecture/layers/business/index|Capa Business]]
-- [[architecture/layers/business/client/index|Modelo de Cliente]]
-- [[architecture/layers/business/plan/index|Modelo de Plan]]
-- [[architecture/layers/business/subscription/index|Modelo de Suscripción]]
-- [[architecture/layers/business/billing/index|Modelo de Facturación]]
+- [Capa de Negocio](../architecture/layers/business/index.md)
+- [Modelo de Cliente](../architecture/layers/business/index.md)
+- [Modelo de Plan](../architecture/layers/business/index.md)
+- [Modelo de Suscripción](../architecture/layers/business/index.md)
+- [Modelo de Facturación](../architecture/layers/business/index.md)
 - [Modelo de Usuario](../architecture/layers/administrative/index.md)
 - [Modelo de Asignación](../architecture/layers/administrative/index.md)
 - [Modelo de Conocimiento](../architecture/layers/operative/index.md)
@@ -327,7 +327,7 @@ Codex es responsable de gestionar persistencia, coherencia e integridad del cono
 
 ## Relación con el Flujo Administrativo
 
-La Capa Business extiende a la Administrativa.
+La Capa de Negocio extiende a la Administrativa.
 
 Ejemplo conceptual:
 
