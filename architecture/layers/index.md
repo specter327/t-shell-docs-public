@@ -1,23 +1,23 @@
-# Architecture Layers
+# Capas de arquitectura
 
-The public architecture is presented in three principal layers.
+La arquitectura pública se presenta en tres capas principales.
 
-## Dependency direction
+## Dirección de dependencias
 
 ```text
-Operative
+Operativa
     ↑
-Administrative
+Administrativa
     ↑
-Business
+Negocio
 ```
 
-A higher layer may extend or constrain capabilities provided by a lower layer without redefining its ownership.
+Una capa superior puede ampliar o restringir capacidades proporcionadas por una capa inferior sin redefinir su propiedad.
 
-## Layers
+## Capas
 
-- [Operative](operative/index.md)
-- [Administrative](administrative/index.md)
-- [Business](business/index.md)
+- [Operativa](operative/index.md)
+- [Administrativa](administrative/index.md)
+- [Negocio](business/index.md)
 
-See the [architecture overview](../index.md).
+Consulta el [resumen de arquitectura](../index.md).
