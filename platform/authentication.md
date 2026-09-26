@@ -1,7 +1,7 @@
-# Authentication Platform
+# Plataforma de Autenticación
 
-The Authentication Platform verifies the authentication procedure used by a participating T-Shell entity.
+La Plataforma de Autenticación verifica el procedimiento de autenticación utilizado por una entidad participante de T-Shell.
 
-Authentication establishes that the applicable cryptographic procedure was satisfied. It does not by itself establish domain membership, administrative authorization, business entitlement, or module authorization.
+La autenticación establece que se satisfizo el procedimiento criptográfico correspondiente. Por sí sola, no establece membresía de dominio, autorización administrativa, habilitación comercial ni autorización de módulos.
 
-See the [operative flow](../flows/operative-flow.md).
+Consulta el [flujo operativo](../flows/operative-flow.md).
