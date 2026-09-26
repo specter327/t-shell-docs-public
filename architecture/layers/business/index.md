@@ -1,9 +1,9 @@
-# Business Layer
+# Capa de Negocio
 
-The Business Layer describes commercial constraints around administrative capability.
+La Capa de Negocio describe las restricciones comerciales asociadas a las capacidades administrativas.
 
-Public concepts include clients, plans, subscriptions, billing, and entitlement decisions.
+Entre los conceptos públicos se encuentran clientes, planes, suscripciones, facturación y decisiones de habilitación.
 
-Business rules may constrain an already valid administrative capability, but they do not redefine the underlying operational resources.
+Las reglas de negocio pueden restringir una capacidad administrativa ya válida, pero no redefinen los recursos operativos subyacentes.
 
-See the [business flow](../../../flows/business-flow.md).
+Consulta el [flujo de negocio](../../../flows/business-flow.md).
