@@ -12,11 +12,11 @@ Echo
 Codex
 ```
 
-La Manufactura y la Distribución existen actualmente como responsabilidades/modelos operativos, pero **no existe todavía una aplicación Manufacturer Server formalmente especificada**. Por ello este flujo no la introduce como aplicación.
+La Manufactura y la Distribución existen actualmente como responsabilidades/modelos operativos, pero **no existe todavía una aplicación Servidor de Manufactura formalmente especificada**. Por ello este flujo no la introduce como aplicación.
 
 ## Composición documental
 
-Lease:
+Referencia:
 
 - [Arquitectura de Atlas](../applications/atlas.md)
 - [Responsabilidades de Atlas](../applications/atlas.md)
@@ -52,7 +52,7 @@ integridad
 fiabilidad
 seguridad
 disponibilidad
-backups
+respaldos
 API
 ```
 
@@ -134,7 +134,7 @@ Funciones
 Fuente de Conocimiento disponible
 ```
 
-La Implementation actual documenta Python 3 + PostgreSQL, pero esas tecnologías pertenecen a Implementation y no al flujo abstracto.
+La implementación actual documenta Python 3 + PostgreSQL, pero esas tecnologías pertenecen a implementación y no al flujo abstracto.
 
 ### 2. Inicialización de Atlas
 
@@ -265,7 +265,7 @@ Fuente de Conocimiento
                       Echo
 ```
 
-La superficie concreta de cada interfaz pertenece a la arquitectura/Implementation correspondiente.
+La superficie concreta de cada interfaz pertenece a la arquitectura/implementación correspondiente.
 
 ## Flujo de una operación remota
 
@@ -315,14 +315,14 @@ Para módulos con WebGUI especializada:
 ```text
 Atlas WebGUI
     ↓
-Module WebGUI Host API
+Module WebGUI API del anfitrión
     ↓
-Module WebGUI Guest
+Module WebGUI Invitado
     ↓
 Módulo
 ```
 
-Atlas actúa como Host/compositor. La semántica visual y operacional específica pertenece al Guest propietario.
+Atlas actúa como Host/compositor. La semántica visual y operacional específica pertenece al Invitado propietario.
 
 Ejemplos:
 
@@ -330,7 +330,7 @@ Ejemplos:
 SHELL             -> terminal
 FTP               -> gestor de archivos
 TERMUX            -> capacidades Android/Termux
-Resources Monitor -> telemetría de recursos
+Monitor de Recursos -> telemetría de recursos
 ```
 
 ### 5. Envío de solicitud
@@ -375,7 +375,7 @@ Transport
     ↓
 Atlas
     ↓
-módulo/Guest consumidor
+módulo/Invitado consumidor
     ↓
 resultado presentado
 ```
@@ -507,7 +507,7 @@ Flujo de Aplicaciones
 Sin embargo, no existe aún documentación normativa suficiente para afirmar:
 
 ```text
-Manufacturer Server
+Servidor de Manufactura
 ```
 
 como aplicación formal del sistema.
@@ -550,7 +550,7 @@ sin que una aplicación absorba responsabilidades pertenecientes a otra.
 Este flujo no define:
 
 - arquitectura interna final de Echo, todavía no documentada;
-- Manufacturer Server;
+- Servidor de Manufactura;
 - protocolo completo de autenticación de Usuario;
 - reglas completas de negocio;
 - tecnología concreta de despliegue;
