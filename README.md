@@ -1,29 +1,29 @@
-# T-Shell Documentation
+# Documentación de T-Shell
 
-This repository contains the **public documentation** of T-Shell.
+Este repositorio contiene la **documentación pública** de T-Shell.
 
-It presents the project at a level suitable for users, developers, reviewers, and contributors. Internal design records, private implementation decisions, credentials, operational details, and historical working material are intentionally excluded.
+Presenta el proyecto a un nivel adecuado para usuarios, desarrolladores, revisores y colaboradores. Los registros de diseño internos, decisiones privadas de implementación, credenciales, detalles operativos sensibles y material histórico de trabajo se excluyen deliberadamente.
 
-## Start here
+## Comenzar
 
-- [Documentation index](index.md)
-- [Vision](vision/index.md)
-- [Architecture](architecture/index.md)
-- [Applications](applications/index.md)
-- [Platforms](platform/index.md)
-- [Flows](flows/index.md)
-- [Demonstrations](demonstrations/index.md)
+- [Índice de documentación](index.md)
+- [Visión](vision/index.md)
+- [Arquitectura](architecture/index.md)
+- [Aplicaciones](applications/index.md)
+- [Plataformas](platform/index.md)
+- [Flujos](flows/index.md)
+- [Demostraciones](demonstrations/index.md)
 
-## Scope
+## Alcance
 
-The public documentation describes concepts, intended architecture, application roles, platform boundaries, operational flows, and selected demonstrations.
+La documentación pública describe conceptos, arquitectura prevista, responsabilidades de las aplicaciones, límites de las plataformas, flujos operativos y demostraciones seleccionadas.
 
-It is **not a mirror of the private documentation**. Public documents are independently curated from the project's current public-safe concepts.
+**No es un espejo de la documentación privada.** Los documentos públicos se mantienen de forma independiente y se redactan a partir de los conceptos que pueden publicarse.
 
-## Status
+## Estado
 
-T-Shell is under active development. Some sections describe implemented behavior, while others describe current architectural direction. Demonstrations are evidence of the specific environments and versions tested; they are not general compatibility guarantees.
+T-Shell se encuentra en desarrollo activo. Algunas secciones describen comportamiento implementado y otras describen la dirección arquitectónica actual. Las demostraciones documentan entornos y versiones concretos; no constituyen garantías generales de compatibilidad.
 
-## Responsible use
+## Uso responsable
 
-T-Shell is intended for legitimate and authorized administration of systems and infrastructure. See the [ethical and legal notice](vision/disclaimer.md).
+T-Shell está destinado a la administración legítima y autorizada de sistemas e infraestructura. Consulta el [aviso ético y legal](vision/disclaimer.md).
