@@ -26,21 +26,21 @@ Referencia:
 ## Dependencia de capas
 
 ```text
-Operative
+Operativa
    ↑
-Administrative
+Administrativa
    ↑
-Business
+Negocio
 ```
 
 Desde la perspectiva de dependencia:
 
 ```text
-Business
+Negocio
    ↓ depende de
-Administrative
+Administrativa
    ↓ depende de
-Operative
+Operativa
 ```
 
 La existencia del Flujo de Negocio no es requisito para que la Capa Operativa funcione.
@@ -178,7 +178,7 @@ Plan
   └── límite de Asignaciones
 ```
 
-La documentación actual no define lifecycle, versionado ni reglas de modificación de Plan; el flujo no las inventa.
+La documentación actual no define ciclo de vida, versionado ni reglas de modificación de Plan; el flujo no las inventa.
 
 ### 4. Creación de Suscripción
 
@@ -316,7 +316,7 @@ Los objetos business forman parte de la sección de Negocio de la Fuente de Cono
 ```text
 Fuente de Conocimiento
         ↓
-Business
+Negocio
   ├── Client
   ├── Plan
   ├── Subscription
