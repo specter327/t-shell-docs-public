@@ -1,7 +1,7 @@
-# System Adapter Platform
+# Plataforma de Adaptación del Sistema
 
-The System Adapter connects T-Shell's operational model with the capabilities and constraints of the host system.
+La Plataforma de Adaptación del Sistema conecta el modelo operativo de T-Shell con las capacidades y restricciones del sistema anfitrión.
 
-It provides the boundary through which Echo adapts to its actual operating environment without requiring the higher-level operational model to contain platform-specific implementation details.
+Proporciona el límite mediante el cual Echo se adapta a su entorno de ejecución real sin exigir que el modelo operativo de nivel superior contenga detalles de implementación específicos de la plataforma.
 
-See the [operative flow](../flows/operative-flow.md).
+Consulta el [flujo operativo](../flows/operative-flow.md).
