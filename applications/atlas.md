@@ -1,15 +1,15 @@
 # Atlas
 
-Atlas is the T-Shell application that acts as the primary controller/orderer.
+Atlas es la aplicación de T-Shell que actúa como controlador u ordenador principal.
 
-## Public responsibilities
+## Responsabilidades públicas
 
-- coordinate operational interactions;
-- maintain and present knowledge about managed Echo nodes;
-- provide administrative interfaces;
-- orchestrate remote operations;
-- compose required platform capabilities.
+- coordinar las interacciones operativas;
+- mantener y presentar conocimiento sobre los nodos Echo administrados;
+- proporcionar interfaces administrativas;
+- orquestar operaciones remotas;
+- componer las capacidades de plataforma requeridas.
 
-Atlas can communicate with multiple Echo nodes independently.
+Atlas puede comunicarse de forma independiente con múltiples nodos Echo.
 
-See the [operative flow](../flows/operative-flow.md) and [applications flow](../flows/applications-flow.md).
+Consulta el [flujo operativo](../flows/operative-flow.md) y el [flujo de aplicaciones](../flows/applications-flow.md).
