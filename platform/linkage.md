@@ -1,7 +1,7 @@
-# Linkage Platform
+# Plataforma de Enlace
 
-The Linkage Platform associates an authenticated operational identity with an active transport relationship.
+La Plataforma de Enlace asocia una identidad operativa autenticada con una relación de transporte activa.
 
-It maintains the operational association required by the system without making the transport layer responsible for identity or application semantics.
+Mantiene la asociación operacional requerida por el sistema sin hacer responsable a la capa de transporte de la identidad ni de la semántica de aplicación.
 
-See the [operative flow](../flows/operative-flow.md).
+Consulta el [flujo operativo](../flows/operative-flow.md).
