@@ -1,9 +1,9 @@
-# Operative Layer
+# Capa Operativa
 
-The Operative Layer defines the concepts required for T-Shell to function as a control system.
+La Capa Operativa define los conceptos necesarios para que T-Shell funcione como sistema de control.
 
-Publicly relevant concepts include identity, entity presence, domains, memberships, operational authority, infrastructure, topology, communication, integration, knowledge, events, and distribution.
+Entre los conceptos públicos relevantes se encuentran identidad, presencia de entidades, dominios, membresías, autoridad operativa, infraestructura, topología, comunicación, integración, conocimiento, eventos y distribución.
 
-Atlas and Echo use this layer to establish and maintain operational relationships.
+Atlas y Echo utilizan esta capa para establecer y mantener sus relaciones operativas.
 
-See the [operative flow](../../../flows/operative-flow.md).
+Consulta el [flujo operativo](../../../flows/operative-flow.md).
