@@ -1,19 +1,9 @@
-# Manifiesto
+# Vision
 
-Lease: [[vision/manifest|Manifiesto]]
+- [Manifest](manifest.md)
+- [Objectives](objectives.md)
+- [Premises](premises.md)
+- [Use cases](use-cases.md)
+- [Ethical and legal notice](disclaimer.md)
 
-# Objetivos
-
-Lease: [[vision/objectives|Objetivos]]
-
-# Premisas
-
-Lease: [[vision/premises|Premisas]]
-
-# Aviso
-
-Lease: [[disclaimer|Aviso]]
-
-## Casos de uso
-
-Lease: [[use-cases|Casos de Uso]]
+Return to the [documentation index](../index.md).
