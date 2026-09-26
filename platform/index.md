@@ -1,13 +1,13 @@
-# Platforms
+# Plataformas
 
-Platforms define bounded technical capabilities used by T-Shell applications.
+Las plataformas definen capacidades técnicas delimitadas que utilizan las aplicaciones de T-Shell.
 
-- [Authentication](authentication.md)
-- [Linkage](linkage.md)
-- [Transport](transport.md)
-- [Module](module.md)
-- [System Adapter](system-adapter.md)
+- [Autenticación](authentication.md)
+- [Enlace](linkage.md)
+- [Transporte](transport.md)
+- [Módulos](module.md)
+- [Adaptador del sistema](system-adapter.md)
 
-These boundaries let Atlas and Echo compose capabilities without placing unrelated protocol or application semantics into a single component.
+Estos límites permiten que Atlas y Echo compongan capacidades sin concentrar protocolos o semántica de aplicación no relacionada en un único componente.
 
-See the [operative flow](../flows/operative-flow.md).
+Consulta el [flujo operativo](../flows/operative-flow.md).
