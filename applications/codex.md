@@ -1,15 +1,15 @@
 # Codex
 
-Codex is the T-Shell knowledge-source application.
+Codex es la aplicación de T-Shell que actúa como Fuente de Conocimiento.
 
-## Public responsibilities
+## Responsabilidades públicas
 
-- provide data and knowledge interfaces;
-- manage persistence where applicable;
-- preserve integrity and consistency;
-- provide knowledge consumed by authorized components;
-- support recovery and backup strategies.
+- proporcionar interfaces de datos y conocimiento;
+- gestionar la persistencia cuando corresponda;
+- preservar la integridad y consistencia;
+- proporcionar el conocimiento consumido por componentes autorizados;
+- apoyar estrategias de recuperación y respaldo.
 
-Codex is separated from Atlas orchestration: Atlas consumes knowledge, while Codex owns knowledge-source responsibilities.
+Codex está separado de la orquestación de Atlas: Atlas consume conocimiento, mientras Codex mantiene las responsabilidades propias de la Fuente de Conocimiento.
 
-See the [applications flow](../flows/applications-flow.md).
+Consulta el [flujo de aplicaciones](../flows/applications-flow.md).
