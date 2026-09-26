@@ -8,16 +8,16 @@ Este flujo describe **composición y secuencia**. No redefine las primitivas de 
 
 ## Composición documental
 
-Lease:
+Referencia:
 
-- [[architecture/layers/operative/index|Capa Operativa]]
-- [[architecture/layers/operative/identity/index|Modelo de Identidad]]
+- [Capa Operativa](../architecture/layers/operative/index.md)
+- [Modelo de Identidad](../architecture/layers/operative/index.md)
 - [Modelo de Entidad](../architecture/layers/operative/index.md)
 - [Modelo de Autoridad](../architecture/layers/operative/index.md)
 - [Modelo de Dominio](../architecture/layers/operative/index.md)
-- [[architecture/layers/operative/topology/index|Modelo de Topología]]
-- [[architecture/layers/operative/network/index|Modelo de Red]]
-- [[architecture/layers/operative/infrastructure/index|Modelo de Infraestructura]]
+- [Modelo de Topología](../architecture/layers/operative/index.md)
+- [Modelo de Red](../architecture/layers/operative/index.md)
+- [Modelo de Infraestructura](../architecture/layers/operative/index.md)
 - [Modelo de Conocimiento](../architecture/layers/operative/index.md)
 - [Plataforma de Autenticación](../platform/authentication.md)
 - [Plataforma de Enlace](../platform/linkage.md)
@@ -29,8 +29,8 @@ Lease:
 
 Cuando el software todavía no está desplegado, el flujo puede ser precedido por:
 
-- [[architecture/layers/operative/manufacture/index|Modelo de Manufactura]]
-- [[architecture/layers/operative/distribution/index|Modelo de Distribución]]
+- [Modelo de Manufactura](../architecture/layers/operative/index.md)
+- [Modelo de Distribución](../architecture/layers/operative/index.md)
 
 ## Sujetos
 
@@ -175,9 +175,9 @@ Echo inicia una conexión saliente hacia Atlas.
 ```text
 Echo
   │
-  │ connect()
+  │ conectar()
   ▼
-TransportPlatform
+Plataforma de Transporte
   │
   ▼
 ConnectionUUID
@@ -186,7 +186,7 @@ ConnectionUUID
 Atlas
 ```
 
-`TransportPlatform` administra la conexión concreta y permanece ajena a:
+`Plataforma de Transporte` administra la conexión concreta y permanece ajena a:
 
 - identidad de entidad;
 - dominio;
@@ -201,7 +201,7 @@ Una conexión de transporte no equivale a una entidad autenticada ni autorizada.
 
 La integración inicial de Echo a un Dominio está normativamente definida por:
 
-> Lease: [Modelo de Integración Operativa](../architecture/layers/operative/index.md)
+> Referencia: [Modelo de Integración Operativa](../architecture/layers/operative/index.md)
 
 El flujo completo ya posee orden protocolario estable. En términos resumidos:
 
@@ -284,20 +284,20 @@ ConnectionUUID
     +
 AuthToken válido
     ↓
-SystemPlatformAdapter
+Adaptador del Sistema
     ↓
 BIND
     ↓
 OperationalBinding
 ```
 
-El `SystemPlatformAdapter`:
+El `Adaptador del Sistema`:
 
 1. obtiene el `ConnectionUUID` desde metadata local;
 2. valida la `AuthenticationSession` asociada al `AuthToken`;
 3. resuelve la identidad de la sesión;
 4. verifica que la conexión siga activa;
-5. solicita a `LinkagePlatform` el enlace entre conexión e identidad.
+5. solicita a `Plataforma de Enlace` el enlace entre conexión e identidad.
 
 El enlace resultante contiene:
 
@@ -347,9 +347,9 @@ La información administrativa puede persistir aunque Echo pierda conectividad.
 Pipeline operacional de recepción:
 
 ```text
-TransportPlatform RX
+Plataforma de Transporte RX
         ↓
-SystemPlatformAdapter
+Adaptador del Sistema
         ↓
 validar ConnectionUUID
         ↓
@@ -359,14 +359,14 @@ validar AuthenticationSession exacta
         ↓
 ConnectionUUID -> EntityUUID
         ↓
-ModulePlatform RX
+Plataforma de Módulos RX
         ↓
 module_uuid
         ↓
 Módulo
 ```
 
-`SystemPlatformAdapter` sustituye la dirección física/lógica correspondiente mediante metadata local:
+`Adaptador del Sistema` sustituye la dirección física/lógica correspondiente mediante metadata local:
 
 ```text
 _source_connection_identification
@@ -378,7 +378,7 @@ Los campos locales `_...` no deben serializarse sobre el medio.
 
 ### 10. Ejecución de una operación de módulo
 
-`ModulePlatform` enruta por:
+`Plataforma de Módulos` enruta por:
 
 ```text
 module_uuid
@@ -389,7 +389,7 @@ sin interpretar el protocolo interno del módulo.
 ```text
 Entidad origen
    ↓
-ModulePlatform
+Plataforma de Módulos
    ↓
 Módulo destino
    ↓
@@ -423,11 +423,11 @@ La identidad confiable del origen proviene de la Plataforma de Módulos/Adaptado
 Pipeline de transmisión:
 
 ```text
-ModulePlatform TX
+Plataforma de Módulos TX
         ↓
 _entity_destination_identification
         ↓
-SystemPlatformAdapter
+Adaptador del Sistema
         ↓
 resolver OperationalBinding
         ↓
@@ -435,7 +435,7 @@ validar AuthenticationSession exacta
         ↓
 resolver ConnectionUUID
         ↓
-TransportPlatform TX
+Plataforma de Transporte TX
         ↓
 Entidad destino
 ```
@@ -465,11 +465,11 @@ Cuando una conexión se pierde:
 ```text
 TransportConnection
         ↓ DISCONNECTED
-TransportPlatform
+Plataforma de Transporte
         ↓
 purge_connection(ConnectionUUID)
         ↓
-LinkagePlatform
+Plataforma de Enlace
         ↓
 OperationalBinding eliminado
 ```
