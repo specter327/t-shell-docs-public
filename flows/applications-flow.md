@@ -18,23 +18,23 @@ La Manufactura y la Distribución existen actualmente como responsabilidades/mod
 
 Lease:
 
-- [[applications/atlas/architecture|Arquitectura de Atlas]]
-- [[applications/atlas/responsibilities|Responsabilidades de Atlas]]
-- [[applications/echo/responsibilities|Responsabilidades de Echo]]
-- [[applications/codex/architecture|Arquitectura de Codex]]
-- [[applications/codex/responsibilities|Responsabilidades de Codex]]
-- [[applications/codex/implementation|Implementation actual de Codex]]
-- [[architecture/layers/operative/knowledge/index|Modelo de Conocimiento]]
-- [[architecture/layers/operative/entity/index|Modelo de Entidad]]
-- [[architecture/layers/operative/authority/index|Modelo de Autoridad]]
-- [[platform/authentication|Plataforma de Autenticación]]
-- [[platform/linkage|Plataforma de Enlace]]
-- [[platform/transport|Plataforma de Transporte]]
-- [[platform/module|Plataforma de Módulos]]
-- [[platform/system-adapter|Adaptador de Plataforma del Sistema]]
-- [[flows/operative-flow|Flujo Operativo]]
-- [[flows/administrative-flow|Flujo Administrativo]]
-- [[flows/business-flow|Flujo de Negocio]]
+- [Arquitectura de Atlas](../applications/atlas.md)
+- [Responsabilidades de Atlas](../applications/atlas.md)
+- [Responsabilidades de Echo](../applications/echo.md)
+- [Arquitectura de Codex](../applications/codex.md)
+- [Responsabilidades de Codex](../applications/codex.md)
+- [Implementación de Codex](../applications/codex.md)
+- [Modelo de Conocimiento](../architecture/layers/operative/index.md)
+- [Modelo de Entidad](../architecture/layers/operative/index.md)
+- [Modelo de Autoridad](../architecture/layers/operative/index.md)
+- [Plataforma de Autenticación](../platform/authentication.md)
+- [Plataforma de Enlace](../platform/linkage.md)
+- [Plataforma de Transporte](../platform/transport.md)
+- [Plataforma de Módulos](../platform/module.md)
+- [Adaptador de Plataforma del Sistema](../platform/system-adapter.md)
+- [Flujo Operativo](operative-flow.md)
+- [Flujo Administrativo](administrative-flow.md)
+- [Flujo de Negocio](business-flow.md)
 
 ## Posición de las aplicaciones
 
