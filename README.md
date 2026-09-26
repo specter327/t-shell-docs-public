@@ -16,7 +16,7 @@ It presents the project at a level suitable for users, developers, reviewers, an
 
 ## Scope
 
-The public documentation describes the concepts, intended architecture, application roles, platform boundaries, operational flows, and selected demonstrations of T-Shell.
+The public documentation describes concepts, intended architecture, application roles, platform boundaries, operational flows, and selected demonstrations.
 
 It is **not a mirror of the private documentation**. Public documents are independently curated from the project's current public-safe concepts.
 
