@@ -15,13 +15,13 @@ Lease:
 - [[architecture/layers/business/plan/index|Modelo de Plan]]
 - [[architecture/layers/business/subscription/index|Modelo de Suscripción]]
 - [[architecture/layers/business/billing/index|Modelo de Facturación]]
-- [[architecture/layers/administrative/user/index|Modelo de Usuario]]
-- [[architecture/layers/administrative/assignment/index|Modelo de Asignación]]
-- [[architecture/layers/operative/knowledge/index|Modelo de Conocimiento]]
-- [[applications/atlas/architecture|Arquitectura de Atlas]]
-- [[applications/atlas/responsibilities|Responsabilidades de Atlas]]
-- [[applications/codex/responsibilities|Responsabilidades de Codex]]
-- [[flows/administrative-flow|Flujo Administrativo]]
+- [Modelo de Usuario](../architecture/layers/administrative/index.md)
+- [Modelo de Asignación](../architecture/layers/administrative/index.md)
+- [Modelo de Conocimiento](../architecture/layers/operative/index.md)
+- [Arquitectura de Atlas](../applications/atlas.md)
+- [Responsabilidades de Atlas](../applications/atlas.md)
+- [Responsabilidades de Codex](../applications/codex.md)
+- [Flujo Administrativo](administrative-flow.md)
 
 ## Dependencia de capas
 
