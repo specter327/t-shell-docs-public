@@ -12,20 +12,20 @@ Lease:
 
 - [[architecture/layers/operative/index|Capa Operativa]]
 - [[architecture/layers/operative/identity/index|Modelo de Identidad]]
-- [[architecture/layers/operative/entity/index|Modelo de Entidad]]
-- [[architecture/layers/operative/authority/index|Modelo de Autoridad]]
-- [[architecture/layers/operative/domain/index|Modelo de Dominio]]
+- [Modelo de Entidad](../architecture/layers/operative/index.md)
+- [Modelo de Autoridad](../architecture/layers/operative/index.md)
+- [Modelo de Dominio](../architecture/layers/operative/index.md)
 - [[architecture/layers/operative/topology/index|Modelo de Topología]]
 - [[architecture/layers/operative/network/index|Modelo de Red]]
 - [[architecture/layers/operative/infrastructure/index|Modelo de Infraestructura]]
-- [[architecture/layers/operative/knowledge/index|Modelo de Conocimiento]]
-- [[platform/authentication|Plataforma de Autenticación]]
-- [[platform/linkage|Plataforma de Enlace]]
-- [[platform/transport|Plataforma de Transporte]]
-- [[platform/module|Plataforma de Módulos]]
-- [[platform/system-adapter|Adaptador de Plataforma del Sistema]]
-- [[applications/atlas/responsibilities|Responsabilidades de Atlas]]
-- [[applications/echo/responsibilities|Responsabilidades de Echo]]
+- [Modelo de Conocimiento](../architecture/layers/operative/index.md)
+- [Plataforma de Autenticación](../platform/authentication.md)
+- [Plataforma de Enlace](../platform/linkage.md)
+- [Plataforma de Transporte](../platform/transport.md)
+- [Plataforma de Módulos](../platform/module.md)
+- [Adaptador de Plataforma del Sistema](../platform/system-adapter.md)
+- [Responsabilidades de Atlas](../applications/atlas.md)
+- [Responsabilidades de Echo](../applications/echo.md)
 
 Cuando el software todavía no está desplegado, el flujo puede ser precedido por:
 
@@ -201,7 +201,7 @@ Una conexión de transporte no equivale a una entidad autenticada ni autorizada.
 
 La integración inicial de Echo a un Dominio está normativamente definida por:
 
-> Lease: [[architecture/layers/operative/integration/index|Modelo de Integración Operativa]]
+> Lease: [Modelo de Integración Operativa](../architecture/layers/operative/index.md)
 
 El flujo completo ya posee orden protocolario estable. En términos resumidos:
 
@@ -236,8 +236,8 @@ Echo verifica que el Domain de destino corresponda al esperado mediante la Ident
 
 Los estados y resultados canónicos pertenecen a:
 
-- [[architecture/layers/operative/integration/states|Estados de Integración]]
-- [[architecture/layers/operative/integration/results|Resultados de Integración]]
+- [Estados de Integración](../architecture/layers/operative/index.md)
+- [Resultados de Integración](../architecture/layers/operative/index.md)
 
 ### 6. Autenticación
 
