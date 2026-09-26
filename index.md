@@ -1,36 +1,48 @@
 ---
 title: T-Shell Documentation
 ---
-# Presentacion
 
-**T-Shell** es una aplicacion simple para operar como sistema de control y administracion remotos. No busca ser un sistema avanzado ni completo, sino ofrecer funcionalidad y solucion directas ante una problematica.
-# Vision
+# T-Shell Documentation
 
-Lease: [[vision/index|Vision]]
+T-Shell is a lightweight system for controlling and administering technological devices and infrastructure.
 
-# Terminologia
+## Vision
 
-Lease: [[terminology|Terminologia]]
+- [Manifest](vision/manifest.md)
+- [Objectives](vision/objectives.md)
+- [Premises](vision/premises.md)
+- [Use cases](vision/use-cases.md)
+- [Ethical and legal notice](vision/disclaimer.md)
 
-## Arquitectura
+## Architecture
 
-Lease: [[architecture/index|Arquitectura]]
-# Reglas de documentacion
+- [Architecture overview](architecture/index.md)
+- [Architecture layers](architecture/layers/index.md)
 
-Lease: [[docs-rules|Reglas de Documentacion]]
+## Applications
 
-## Relaciones de documentacion
+- [Applications overview](applications/index.md)
+- [Atlas](applications/atlas.md)
+- [Echo](applications/echo.md)
+- [Codex](applications/codex.md)
 
-Lease: [[docs-relations|Relaciones de Documentacion]]
+## Platforms
 
-## Auditoria de documentacion
+- [Platform overview](platform/index.md)
+- [Authentication](platform/authentication.md)
+- [Linkage](platform/linkage.md)
+- [Transport](platform/transport.md)
+- [Module](platform/module.md)
+- [System Adapter](platform/system-adapter.md)
 
-Lease: [[docs-audit|Auditoria de Documentacion]]
+## Flows
 
-## Instrucciones de IA
+- [Flow overview](flows/index.md)
+- [Operative flow](flows/operative-flow.md)
+- [Administrative flow](flows/administrative-flow.md)
+- [Business flow](flows/business-flow.md)
+- [Applications flow](flows/applications-flow.md)
 
-Lease: [[prompts-ai|Instrucciones de IA]]
+## Demonstrations
 
-## Flujos completos
-
-Lease: [[flows/index|Flujos]]
+- [Demonstration index](demonstrations/index.md)
