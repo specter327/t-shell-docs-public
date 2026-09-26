@@ -1,9 +1,9 @@
-# Module Platform
+# Plataforma de Módulos
 
-The Module Platform hosts and routes T-Shell modules.
+La Plataforma de Módulos aloja y enruta los módulos de T-Shell.
 
-Modules retain their own semantics and protocols. The platform provides the lifecycle and routing boundary required to expose those modules through Echo and Atlas.
+Los módulos conservan su propia semántica y sus propios protocolos. La plataforma proporciona el límite de ciclo de vida y enrutamiento necesario para exponer esos módulos mediante Echo y Atlas.
 
-Publicly demonstrated module families include SHELL and FTP, with other platform-specific modules under development.
+Las familias de módulos demostradas públicamente incluyen SHELL y FTP; existen otros módulos específicos de plataforma en desarrollo.
 
-See the [operative flow](../flows/operative-flow.md).
+Consulta el [flujo operativo](../flows/operative-flow.md).
